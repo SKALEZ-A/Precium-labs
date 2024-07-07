@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/assets/QT Landing Page 1.png";
 import cuppa from "@/public/assets/cuppa.png";
+import puppy from "@/public/puppy.png"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -70,6 +71,13 @@ export const projectsData = [
       "Crypto cuppa is an award winning product that allows crypto users incentivize their favorite creators, A 'buymeacoffee' of web3.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Base", "Solidity"],
     imageUrl: cuppa,
+  },
+  {
+    title: "Puppy Love Token",
+    description:
+      "A community driven adorable puppy meme token found for the sole purpose of pumping the meme tokens innovations.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Solidity"],
+    imageUrl: puppy,
   },
   // {
   //   title: "Word Analytics",
